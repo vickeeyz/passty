@@ -4,11 +4,11 @@ preload_app true
 
 # rails_root  = `pwd`.gsub("\n", "")
 # @dir = "#{rails_root}/"
-working_directory = "/home/vickeeyz/deploy/passty/current/"
+working_directory = "/home/user/sites/passty/current/"
 
 # listen on both a Unix domain socket and a TCP port,
 # we use a shorter backlog for quicker failover when busy
-listen "/home/vickeeyz/deploy/passty/tmp/sockets/unicorn.sock", :backlog => 64
+listen "/home/user/sites/passty/tmp/sockets/unicorn.sock", :backlog => 64
 
 # listen 8080, :tcp_nopush => true
 # feel free to point this anywhere accessible on the filesystem
