@@ -26,7 +26,8 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 1.0.1'
 
 # App web server
-gem 'puma'
+# gem 'puma'
+gem 'unicorn'
 
 # Auth
 gem 'devise', '~> 3.0.0.rc'
