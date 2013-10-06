@@ -42,12 +42,8 @@ git clone https://github.com/randx/passty.git
         bundle exec rake db:setup RAILS_ENV=production
         bundle exec rake assets:precompile RAILS_ENV=production 
 
-4. For unicorn proxy with nginx and unicorn init script
+4. For unicorn proxy with nginx and unicorn init script check the below link
 
-https://github.com/vickeeyz/scripts/tree/master/nginx#unicorn-proxy-with-nginx
+https://github.com/vickeeyz/scripts/tree/master/nginx%2Bunicorn#unicorn-proxy-with-nginx
 
-5. Get the nginx and unicorn configurations from my repo scripts
-
-```
-git clone https://github.com/vickeeyz/scripts.git
-```
+5. Rename appname with passty in nginx and unicorn configurations. Restart nginx and unicorn and you are good to go.
